@@ -21,3 +21,9 @@ intervention was needed.
 
 The outcome  is that one  should completely recreate the  vector already
 when it was 20% full.
+
+Simply run this with
+
+```bash
+cargo bench
+```
