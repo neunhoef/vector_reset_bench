@@ -20,7 +20,8 @@ iterations to prevent  some compiler optimizations, but  no other manual
 intervention was needed.
 
 The outcome  is that one  should completely recreate the  vector already
-when it was 20% full.
+when it was  20% full. For larger  vectors, the cutoff seems  to be even
+earlier. In the end, we worked with 10%.
 
 Simply run this with
 
